@@ -20,3 +20,21 @@ ab['Guido'] = 'guido@python.org'
 
 if 'Guido' in ab:
     print("\nGuido's address is", ab['Guido'])
+
+
+# Accessing Values in Dictionary
+dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+print(dict['Name'])
+print(dict['Age'])
+
+# Updating Dictionary
+
+dict['Age'] = 120;
+dict['School'] = 'DPS School';
+
+
+# Delete Dictionary Elements
+
+del dict['Name'];           # remove entry with key 'Name'
+dict.clear()                # remove all entries in dict
+del dict;                   # delete entire dictionary
